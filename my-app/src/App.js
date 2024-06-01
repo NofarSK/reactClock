@@ -2,6 +2,7 @@
 
 import Expenses from "./components/Expenses";
 import ExpenseForm from "./components/ExpenseForm";
+import ExpenseClock from "./components/ExpenseClock";
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
     <div>
 
       <ExpenseForm />
-
+      <ExpenseClock />
       <Expenses items={expense} />
 
     </div>
