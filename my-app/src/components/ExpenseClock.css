@@ -2,23 +2,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 2.5em;
-    color: #333;
-    background-color: #f0f0f0;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 4rem;
+    color: #6c5ce7;
+    text-shadow: 1px 1px 2px rgba(108, 92, 231, 0.3);
     padding: 15px 30px;
     border-radius: 5px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     width: fit-content;
-    margin: 0 auto;
-    letter-spacing: 0.1em;
+    background-color: #f8f8ff;
+    box-shadow: 0 6px 12px rgba(108, 92, 231, 0.2);
 }
 
 .digital-clock span {
-    padding: 0 8px;
+    margin: 0 0.25rem;
 }
 
-.digital-clock span:nth-child(odd) {
-    color: #e347ff;
-    /* Tomato color for colons */
+.digital-clock span:nth-child(2),
+.digital-clock span:nth-child(4) {
+    color: #b8b8d1;
+    text-shadow: none;
 }
